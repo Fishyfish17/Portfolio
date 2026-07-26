@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disha Mrinalini Murugavel — Portfolio</title>
+<meta name="description" content="Disha Mrinalini Murugavel — Mechanical Engineering student, energy systems researcher, and entrepreneur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero" style="--gap-x: 48.7%; --gap-y: 52.5%;">
+  <div class="hero__bg">
+    <img src="assets/hero-bg.png" alt="" aria-hidden="true">
+  </div>
+  <div class="hero__vignette" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="stardust" aria-hidden="true"></div>
+
+  <div class="statusbar">
+    <div class="statusbar__left">
+      <svg width="22" height="14" viewBox="0 0 22 14" fill="none"><rect x="1" y="1" width="18" height="12" rx="2" stroke="var(--lime)" stroke-width="1.5"/><rect x="19.5" y="4.5" width="2" height="5" rx="1" fill="var(--lime)"/><rect x="3" y="3" width="10" height="8" fill="var(--lime)"/></svg>
+      <span>1</span>
+    </div>
+    <span class="statusbar__menu">Menu</span>
+    <div class="statusbar__right">
+      <svg width="12" height="18" viewBox="0 0 12 18" fill="none"><rect x="1" y="1" width="10" height="16" rx="2" stroke="var(--lime)" stroke-width="1.5"/><rect x="3" y="12" width="6" height="3" fill="var(--lime)"/></svg>
+    </div>
+  </div>
+
+  <h1 class="wordmark" aria-label="Disha">
+    <span>D</span><span>I</span><span>S</span><span>H</span><span>A</span>
+  </h1>
+
+  <!-- the spark: a tiny battery "cell" sitting exactly in the gap between the fingertips.
+       it charges up in sync with the background zoom, then flashes at the moment
+       of closest approach — a wink at both the Sistine spark and her electrochemistry work. -->
+  <div class="energy-cell" style="left:var(--gap-x); top:var(--gap-y);" aria-hidden="true">
+    <div class="energy-cell__glow"></div>
+    <svg viewBox="0 0 40 20" width="40" height="20">
+      <rect x="1" y="1" width="34" height="18" rx="4" fill="none" stroke="var(--lime)" stroke-width="1.4"/>
+      <rect x="35.5" y="6.5" width="3" height="7" rx="1" fill="var(--lime)"/>
+      <rect class="energy-cell__bar" x="4" y="4" width="7" height="12" fill="var(--lime)"/>
+      <rect class="energy-cell__bar" x="12" y="4" width="7" height="12" fill="var(--lime)"/>
+      <rect class="energy-cell__bar" x="20" y="4" width="7" height="12" fill="var(--lime)"/>
+    </svg>
+    <span class="energy-cell__spark">✦</span>
+  </div>
+
+  <div class="hero__stage" aria-hidden="true"></div>
+
+  <div class="hero__footer">
+    <p class="tagline tagline--left">FROM PROTOTYPE<br>TO POWER GRID</p>
+    <a href="#contact" class="cta-pill">Connect</a>
+    <p class="tagline tagline--right">THE MOST<br><span class="binary">01000101 01001110 01000101 01010010 01000111 01011001</span></p>
+  </div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section class="section section--about" id="about">
+  <div class="contact-card">
+    <div class="contact-card__row contact-card__row--top">
+      <span class="eyebrow">// ABOUT</span>
+      <span class="eyebrow">EINDHOVEN, NL</span>
+    </div>
+    <h2 class="section-title">Mechanical engineer,<br>energy systems builder,<br>occasional waffle vendor.</h2>
+    <p class="lead">
+      I'm a Mechanical Engineering student at TU Eindhoven, drawn to the point where
+      hardware meets energy: battery chemistry, thermal systems, and the machines that
+      turn one form of power into another. Outside the lab I've run field research on
+      saltwater batteries, built a solar-powered endurance drone's finances from zero,
+      and started (and sold) more small ventures than I can list on a CV without a scroll bar.
+    </p>
+    <div class="contact-card__meta">
+      <div><span class="label">Languages</span><span>English · Hindi · German</span></div>
+      <div><span class="label">Also speaks</span><span>Spanish (A2) · Marathi (A1)</span></div>
+      <div><span class="label">Reachable at</span><a href="mailto:dishamurugavel5@gmail.com">dishamurugavel5@gmail.com</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE (call log style) ============ -->
+<section class="section section--experience" id="experience">
+  <div class="section__head">
+    <span class="eyebrow">// CALL LOG</span>
+    <h2 class="section-title">Work &amp; leadership</h2>
+  </div>
+
+  <ul class="call-log">
+    <li class="call-log__entry">
+      <div class="call-log__meta"><span class="call-log__date">MAY 2025 — PRESENT</span><span class="call-log__place">Eindhoven, NL</span></div>
+      <h3>Treasurer &amp; Financial Head — Team Daedalus</h3>
+      <p>Built the team's first business and financial function for a solar-powered endurance drone: secured €7,000+ in sponsorships, negotiated contracts, and redesigned the financial dashboards used to steer team strategy.</p>
+    </li>
+    <li class="call-log__entry">
+      <div class="call-log__meta"><span class="call-log__date">MAR 2026 — AUG 2026</span><span class="call-log__place">Utrecht, NL</span></div>
+      <h3>Electrochemical Systems Researcher — Tidal Powered Computing Research</h3>
+      <p>Desk research, design, and implementation of a saltwater battery storage system that uses seawater to support server power under Mark Ijzerman.</p>
+    </li>
+    <li class="call-log__entry">
+      <div class="call-log__meta"><span class="call-log__date">JUL 2025 — PRESENT</span><span class="call-log__place">Mumbai, IN</span></div>
+      <h3>Co-Founder — Norffle</h3>
+      <p>Norwegian waffles, adapted to the Indian palate: 10+ orders a day at 70% margins, run only on vacations. Cut delivery costs 42% and packaging waste 71% via a box-return discount.</p>
+    </li>
+    <li class="call-log__entry">
+      <div class="call-log__meta"><span class="call-log__date">JUN 2023 — AUG 2023</span><span class="call-log__place">Mumbai, IN</span></div>
+      <h3>Research Intern — Prof. S. Saha's Lab, IIT Bombay</h3>
+      <p>Lab work on phase change materials and high-temperature heat transfer; built a weighing scale and linear actuator switch rated for high heat.</p>
+    </li>
+    <li class="call-log__entry">
+      <div class="call-log__meta"><span class="call-log__date">AUG 2022 — MAY 2024</span><span class="call-log__place">Tel Aviv, IL</span></div>
+      <h3>Business Development &amp; Marketing Lead — Project Oasis</h3>
+      <p>Led go-to-market for a water-from-air startup that won the Zayed Sustainability Prize — rollout roadmaps, market segmentation, and the product's first website.</p>
+    </li>
+    <li class="call-log__entry">
+      <div class="call-log__meta"><span class="call-log__date">JUN 2022 — AUG 2022</span><span class="call-log__place">Göttingen, DE</span></div>
+      <h3>Research Intern — Biophysics Lab, University of Göttingen</h3>
+      <p>Optical tweezers experiments measuring cell membrane tension, plus literature review and data analysis on blood coagulation and fluid dynamics.</p>
+    </li>
+    <li class="call-log__entry">
+      <div class="call-log__meta"><span class="call-log__date">OCT 2022 — APR 2024</span><span class="call-log__place">Tel Aviv, IL</span></div>
+      <h3>Founder — Global Bites</h3>
+      <p>An instant-food venture serving 250+ students at EMIS, with an ROI of 567–624% through demand-driven pricing and supply.</p>
+    </li>
+    <li class="call-log__entry">
+      <div class="call-log__meta"><span class="call-log__date">JUN 2024 — APR 2025</span><span class="call-log__place">Remote, UK</span></div>
+      <h3>Paid Content Strategy Intern — Tiber Tutor</h3>
+      <p>Exam prep materials and learning modules for 500+ international students; promoted from summer to part-time intern.</p>
+    </li>
+  </ul>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section section--education" id="education">
+  <div class="section__head">
+    <span class="eyebrow">// EDUCATION</span>
+    <h2 class="section-title">Education</h2>
+  </div>
+  <div class="edu-grid">
+    <div class="edu-card">
+      <span class="edu-card__year">EXP. 2027</span>
+      <h3>Eindhoven University of Technology</h3>
+      <p class="edu-card__sub">BSc Mechanical Engineering — Eindhoven, NL</p>
+      <p>Honors: Student of the Year, Vrouwen in de Top. Coursework spans quantum technologies, energy storage, electrochemical energy conversion, and thermodynamics.</p>
+    </div>
+    <div class="edu-card">
+      <span class="edu-card__year">2022 – 2024</span>
+      <h3>Eastern Mediterranean International School</h3>
+      <p class="edu-card__sub">IB Diploma — Tel Aviv, IL — 38/45</p>
+      <p>Top 10% of school, 70% scholarship. Extended Essay on hydrogen gas production via electrolysis, electrode composition, and applied magnetic fields.</p>
+    </div>
+    <div class="edu-card">
+      <span class="edu-card__year">2012 – 2022</span>
+      <h3>Kendriya Vidyalaya, IIT Bombay</h3>
+      <p class="edu-card__sub">CBSE Secondary — Mumbai, IN</p>
+      <p>95.1% in the AISSE (10th grade) board examination.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS (signal / battery bars) ============ -->
+<section class="section section--skills" id="skills">
+  <div class="section__head">
+    <span class="eyebrow">// SIGNAL</span>
+    <h2 class="section-title">Skills &amp; tools</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-meter"><span class="skill-meter__label">CAD</span><div class="skill-meter__bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="skill-meter"><span class="skill-meter__label">Python</span><div class="skill-meter__bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="skill-meter"><span class="skill-meter__label">MATLAB / Simulink</span><div class="skill-meter__bars"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
+    <div class="skill-meter"><span class="skill-meter__label">Thermal Systems Testing</span><div class="skill-meter__bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="skill-meter"><span class="skill-meter__label">Mechanical Prototyping &amp; Assembly</span><div class="skill-meter__bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+    <div class="skill-meter"><span class="skill-meter__label">Materials &amp; Structural Analysis</span><div class="skill-meter__bars"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS (app icon grid) ============ -->
+<section class="section section--achievements" id="achievements">
+  <div class="section__head">
+    <span class="eyebrow">// APPS</span>
+    <h2 class="section-title">Achievements &amp; activities</h2>
+  </div>
+  <div class="app-grid">
+    <div class="app-tile">
+      <span class="app-tile__icon">◆</span>
+      <h3>Semi-Finalist — Empresario Global</h3>
+      <p>Top 200 of 1,900+ teams worldwide, IIT Kharagpur. Pitched to VCs and angel investors.</p>
+    </div>
+    <div class="app-tile">
+      <span class="app-tile__icon">▲</span>
+      <h3>Finalist — Non-Trivial Fellowship</h3>
+      <p>1 of 361 finalists from 9,000+ applicants. Pitched a carbon capture &amp; storage solution.</p>
+    </div>
+    <div class="app-tile">
+      <span class="app-tile__icon">●</span>
+      <h3>SustainEnergy, Eilat-Eilot</h3>
+      <p>Designed a hydrogen-from-seawater business model with an international team.</p>
+    </div>
+    <div class="app-tile">
+      <span class="app-tile__icon">■</span>
+      <h3>Finalist — e-Yantra, IIT Bombay</h3>
+      <p>National robotics finalist: Python, motion control, odometry, and feedback systems.</p>
+    </div>
+    <div class="app-tile">
+      <span class="app-tile__icon">✦</span>
+      <h3>Global Leadership Fellow — Harvard</h3>
+      <p>Selected for a competitive leadership cohort founded at Harvard Business School.</p>
+    </div>
+    <div class="app-tile">
+      <span class="app-tile__icon">♥</span>
+      <h3>Steps of Change, Volunteer</h3>
+      <p>Led a teaching team delivering English lessons to 40+ children in conflict zones.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT (message screen) ============ -->
+<footer class="section section--contact" id="contact">
+  <div class="message-screen">
+    <div class="message-screen__header">
+      <span>NEW MESSAGE</span>
+      <span class="blink">●</span>
+    </div>
+    <p class="message-screen__body">
+      Building something in energy, hardware, or a scrappy startup?
+      I'd like to hear from you.
+    </p>
+    <div class="message-screen__actions">
+      <a class="cta-pill" href="mailto:dishamurugavel5@gmail.com">Send email</a>
+      <a class="cta-pill cta-pill--ghost" href="tel:+31616858374">Call</a>
+    </div>
+    <p class="message-screen__footer">Eindhoven, Netherlands · +31 6 16858374</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
